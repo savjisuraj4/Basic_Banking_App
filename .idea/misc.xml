@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/savji/OneDrive/Desktop/BankingApp/app/src/main/res/layout-v26/userlist.xml" value="0.25" />
+        <entry key="..\:/Users/savji/OneDrive/Desktop/Basic-Banking-App-master/BankingApp/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/savji/OneDrive/Desktop/Basic-Banking-App-master/BankingApp/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/savji/OneDrive/Desktop/Basic-Banking-App-master/BankingApp/app/src/main/res/drawable/rounded_button.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/savji/OneDrive/Desktop/Basic-Banking-App-master/BankingApp/app/src/main/res/layout-v21/activity_user_info.xml" value="0.25" />
+        <entry key="..\:/Users/savji/OneDrive/Desktop/Basic-Banking-App-master/BankingApp/app/src/main/res/layout-v26/userlist.xml" value="0.25" />
+        <entry key="..\:/Users/savji/OneDrive/Desktop/Basic-Banking-App-master/BankingApp/app/src/main/res/layout/activity_first.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/savji/OneDrive/Desktop/Basic-Banking-App-master/BankingApp/app/src/main/res/layout/activity_list_of_users.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/savji/OneDrive/Desktop/Basic-Banking-App-master/BankingApp/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
+        <entry key="..\:/Users/savji/OneDrive/Desktop/Basic-Banking-App-master/BankingApp/app/src/main/res/layout/activity_transfer_money.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/savji/OneDrive/Desktop/Basic-Banking-App-master/BankingApp/app/src/main/res/layout/activity_transfer_money_to_user.xml" value="0.25" />
+        <entry key="..\:/Users/savji/OneDrive/Desktop/Basic-Banking-App-master/BankingApp/app/src/main/res/layout/activity_user_info.xml" value="0.25" />
+        <entry key="..\:/Users/savji/OneDrive/Desktop/Basic-Banking-App-master/BankingApp/app/src/main/res/layout/userlist.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

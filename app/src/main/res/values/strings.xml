@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Banking App</string>
+    <string name="user_name">User Name</string>
+    <string name="amount">amount</string>
+    <string name="balance">balance</string>
+    <string name="rupeeslash">/-</string>
+    <string name="email_id">Email ID</string>
+    <string name="name">Name :</string>
+    <string name="mobile_number">Mobile Number :</string>
+    <string name="account_no">Account No :</string>
+    <string name="ifsc_code">IFSC Code</string>
+    <string name="current_balance">Current balance :</string>
+    <string name="transfer_money">TRANSFER MONEY</string>
+    <string name="phone_no">Phone NO</string>
+    <string name="select_a_customer_to_transfer_money">Select a Customer to Transfer money</string>
+    <string name="rs">Rs.  </string>
+    <string name="banking_system">Banking System</string>
+</resources>
