@@ -24,7 +24,6 @@ customer activity is displayed
 
 ## Sreenshot
 
-<p id="img_cont">
 	<img src="/1.jpeg" width = "200" height= "350" hspace=40>
 	<img src="/2.jpeg" width = "200" height= "350" hspace=40>
 	<img src="/3.jpeg" width = "200" height= "350" hspace=40>
@@ -33,7 +32,6 @@ customer activity is displayed
 	<img src="/6.jpeg" width = "200" height= "350" hspace=40>
 	<img src="/7.jpeg" width = "200" height= "350" hspace=40>
 	<img src="/8.jpeg" width = "200" height= "350" hspace=40>
-</p>
 
 
 
