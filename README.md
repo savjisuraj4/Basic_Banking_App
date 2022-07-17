@@ -24,15 +24,17 @@ customer activity is displayed
 	</p>
 ## Sreenshot
 
+<p>
+</p>
 <p id="img_cont">
-	<img src="/pic1.jpeg" width = "200" height= "350" hspace=40>
-	<img src="/pic2.jpeg" width = "200" height= "350" hspace=40>
-	<img src="/pic3.jpeg" width = "200" height= "350" hspace=40>
-	<img src="/pic4.jpeg" width = "200" height= "350" hspace=40>
-	<img src="/pic5.jpeg" width = "200" height= "350" hspace=40>
-	<img src="/pic6.jpeg" width = "200" height= "350" hspace=40>
-	<img src="/pic7.jpeg" width = "200" height= "350" hspace=40>
-	<img src="/pic8.jpeg" width = "200" height= "350" hspace=40>
+	<img src="/1.jpeg" width = "200" height= "350" hspace=40>
+	<img src="/2.jpeg" width = "200" height= "350" hspace=40>
+	<img src="/3.jpeg" width = "200" height= "350" hspace=40>
+	<img src="/4.jpeg" width = "200" height= "350" hspace=40>
+	<img src="/5.jpeg" width = "200" height= "350" hspace=40>
+	<img src="/6.jpeg" width = "200" height= "350" hspace=40>
+	<img src="/7.jpeg" width = "200" height= "350" hspace=40>
+	<img src="/8.jpeg" width = "200" height= "350" hspace=40>
 </p>
 
 
