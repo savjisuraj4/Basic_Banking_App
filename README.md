@@ -20,6 +20,8 @@ than 0 or it will give error.
 customer activity is displayed
 <li> <b>History</b>-It is activity shows the history of transaction performed.
 <ol>
+<p>
+	</p>
 ## Sreenshot
 
 <p id="img_cont">
@@ -27,6 +29,10 @@ customer activity is displayed
 	<img src="/pic2.jpeg" width = "200" height= "350" hspace=40>
 	<img src="/pic3.jpeg" width = "200" height= "350" hspace=40>
 	<img src="/pic4.jpeg" width = "200" height= "350" hspace=40>
+	<img src="/pic5.jpeg" width = "200" height= "350" hspace=40>
+	<img src="/pic6.jpeg" width = "200" height= "350" hspace=40>
+	<img src="/pic7.jpeg" width = "200" height= "350" hspace=40>
+	<img src="/pic8.jpeg" width = "200" height= "350" hspace=40>
 </p>
 
 
