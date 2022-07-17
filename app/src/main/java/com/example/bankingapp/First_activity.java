@@ -19,6 +19,6 @@ public class First_activity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(),List_of_users.class));
                 finish();
             }
-        },2000);
+        },4000);
     }
 }

@@ -1,5 +1,6 @@
 package com.example.bankingapp;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -8,11 +9,15 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
+import android.os.Build;
 import android.os.Bundle;
 import android.widget.Toast;
 
 import java.text.NumberFormat;
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
 public class TransferMoneyToUser extends AppCompatActivity {
@@ -20,7 +25,7 @@ public class TransferMoneyToUser extends AppCompatActivity {
     List<Model> modelList_transferMoneyToUser=new ArrayList<>();
     RecyclerView recyclerView;
     RecyclerView.LayoutManager layoutManager;
-    String Name,phoneno,currentamount,transferamount,selected_userphoneno,selected_username,seleced_userbalance;
+    String Name,phoneno,currentamount,transferamount,date,selected_userphoneno,selected_username,seleced_userbalance;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +36,9 @@ public class TransferMoneyToUser extends AppCompatActivity {
         layoutManager=new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
         Bundle bundle=getIntent().getExtras();
+        Calendar calendar = Calendar.getInstance();
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd-MMM-yyyy, hh:mm a");
+        date = simpleDateFormat.format(calendar.getTime());
         if(bundle!=null){
             phoneno = bundle.getString("phonenumber");
             Name = bundle.getString("name");
@@ -72,6 +80,7 @@ public class TransferMoneyToUser extends AppCompatActivity {
             Double Dou_debited_user_newamont=Double.parseDouble(currentamount)-Double.parseDouble(transferamount);
             new DatabaseHelper(this).updateAmount(selected_userphoneno,Dou_selected_user_new_amount.toString());
             new DatabaseHelper(this).updateAmount(phoneno,Dou_debited_user_newamont.toString());
+            new DatabaseHelper(this).insertTransferRecord(Name,selected_username,date,Dou_selected_user_transfer_amount.toString(),"Success");
             Toast.makeText(this, "Transaction Successful!", Toast.LENGTH_LONG).show();
             startActivity(new Intent(TransferMoneyToUser.this, List_of_users.class));
             finish();
@@ -84,6 +93,7 @@ public class TransferMoneyToUser extends AppCompatActivity {
                 .setPositiveButton("yes", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
+                        new DatabaseHelper(TransferMoneyToUser.this).insertTransferRecord(Name,"No Selected",date,transferamount,"Failed");
                         Toast.makeText(TransferMoneyToUser.this, "Transaction Cancelled !!", Toast.LENGTH_LONG).show();
                         startActivity(new Intent(TransferMoneyToUser.this, List_of_users.class));
                         finish();

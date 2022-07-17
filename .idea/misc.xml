@@ -3,7 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/savji/OneDrive/Desktop/BankingApp/app/src/main/res/drawable-v24/arrow.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/savji/OneDrive/Desktop/BankingApp/app/src/main/res/drawable/ic_baseline_arrow_right_alt_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/savji/OneDrive/Desktop/BankingApp/app/src/main/res/drawable/ic_baseline_history_24.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/savji/OneDrive/Desktop/BankingApp/app/src/main/res/layout-v26/userlist.xml" value="0.25" />
+        <entry key="..\:/Users/savji/OneDrive/Desktop/BankingApp/app/src/main/res/layout/activity_history.xml" value="0.25" />
+        <entry key="..\:/Users/savji/OneDrive/Desktop/BankingApp/app/src/main/res/layout/historylist.xml" value="0.24365942028985507" />
+        <entry key="..\:/Users/savji/OneDrive/Desktop/BankingApp/app/src/main/res/menu/history_menu.xml" value="0.25" />
         <entry key="..\:/Users/savji/OneDrive/Desktop/Basic-Banking-App-master/BankingApp/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/savji/OneDrive/Desktop/Basic-Banking-App-master/BankingApp/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/savji/OneDrive/Desktop/Basic-Banking-App-master/BankingApp/app/src/main/res/drawable/rounded_button.xml" value="0.26614583333333336" />

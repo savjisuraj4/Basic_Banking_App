@@ -13,6 +13,12 @@
     <string name="transfer_money">TRANSFER MONEY</string>
     <string name="phone_no">Phone NO</string>
     <string name="select_a_customer_to_transfer_money">Select a Customer to Transfer money</string>
-    <string name="rs">Rs.  </string>
+    <string name="rs">Rs.\t</string>
     <string name="banking_system">Banking System</string>
+    <string name="history">History</string>
+    <string name="history_not_found">History Not Found</string>
+    <string name="from_name">From Name</string>
+    <string name="to_name">TO_Name</string>
+    <string name="date">Date</string>
+    <string name="transaction_status">transaction_status</string>
 </resources>

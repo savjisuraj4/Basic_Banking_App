@@ -1,11 +1,18 @@
 package com.example.bankingapp;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.ViewGroup;
+
 import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.List;
@@ -55,5 +62,18 @@ public class List_of_users extends AppCompatActivity {
         Intent intent=new Intent(List_of_users.this,User_Info.class);
         intent.putExtra("phoneno",phoneno);
         startActivity(intent);
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu){
+        getMenuInflater().inflate(R.menu.history_menu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        if(item.getItemId()==R.id.History){
+            startActivity(new Intent(this,History.class));
+        }
+        return super.onOptionsItemSelected(item);
     }
 }
