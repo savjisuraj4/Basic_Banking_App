@@ -21,7 +21,9 @@ customer activity is displayed
 <li> <b>History</b>-It is activity shows the history of transaction performed.
 <ol>
 <p>
-	</p>
+</p>
+	
+
 ## Sreenshot
 
 <p>
